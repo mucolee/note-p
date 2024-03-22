@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="<%= BASE_URL %>logo.svg" rel="icon">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+<!--    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">-->
+</head>
+<body class="body">
+<!--<script src="bootstrap/jquery-3.7.1.js" type="text/javascript"></script>-->
+<!--键盘监听插件-->
+<script src="script/keyboardListener.js" type="text/javascript"></script>
+<!--渲染进程脚本-->
+<script src="script/renderer.js" type="text/javascript"></script>
+<!--<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>-->
+<!--<script src="bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>-->
+
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<script>
+    // window.onload=()=>{
+    //     document.querySelector(".editor").focus();
+    //     console.log(document.querySelector(".editor"));
+    // }
+</script>
+</body>
+<style>
+    .body{
+        margin: 0;
+    }
+</style>
+</html>
