@@ -1,6 +1,9 @@
 # note-p
 
 ## 项目配资
+
+注：node.js版本[node-v16.20.2](https://nodejs.org/download/release/v16.20.2/node-v16.20.2-x64.msi)
+
 ```
 npm install
 ```
