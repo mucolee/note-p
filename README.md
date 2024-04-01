@@ -1,23 +1,18 @@
 # note-p
 
-## Project setup
+## 项目配资
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 编译和热加载用于开发
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run electron:serve 
 ```
 
-### Lints and fixes files
+### 程序打包
 ```
-npm run lint
+ npm run electron:build 
 ```
 
 ### Customize configuration
